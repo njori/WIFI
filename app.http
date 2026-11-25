@@ -1,0 +1,29 @@
+###
+POST http://127.0.0.1:5000/api/auth/register
+Content-Type: application/json
+
+{
+    "username": "adin",
+    "email": "adin@example.com",
+    "password": "Admin123!",
+    "first_name": "System",
+    "last_name": "Adinistrator"
+}
+
+###
+POST http://127.0.0.1:5000/api/routers
+Content-Type: application/json
+
+{
+  
+  
+    "name": "Main Router",
+    "ip_address": "192.168.0.1",
+    "mac_address": "00:11:22:33:44:55",
+    "manufacturer": "MikroTik",
+    "model": "RB4011",
+    "location": "Server Room"
+    "Authorization": 
+
+
+}

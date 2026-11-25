@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0f172a" />
+    <meta
+      name="description"
+      content="WiFi Management System login and dashboard"
+    />
+    <title>WiFi Management System</title>
+    <style>
+      html,
+      body,
+      #root {
+        min-height: 100%;
+        margin: 0;
+      }
+
+      body {
+        background: #f8fafc;
+      }
+
+      #root {
+        min-height: 100vh;
+      }
+
+      .app-loading {
+        display: grid;
+        min-height: 100vh;
+        place-items: center;
+        color: #334155;
+        font: 500 1rem system-ui, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <div class="app-loading"><marquee>Welcome</marquee></div>
+    </div>
+    <noscript>
+      <p>Please enable JavaScript to use the WiFi Management System.</p>
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
